@@ -1,0 +1,47 @@
+# Ignore changes in builds/
+builds/
+!builds/bootstrap.sh
+!builds/cleanup.sh
+!builds/generator-debug.sh
+!builds/generator-release.sh
+
+# Java
+*.jar
+# Prevent binary files from being uploaded
+bin/
+
+# C++ ignores
+CMakeCache.txt
+CMakeFiles/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# C extensions
+*.so 
